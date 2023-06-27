@@ -6,10 +6,12 @@ namespace ProgramConstruct
     { 
         public static void Main(string[] args)
         {
-            Programming p1 = new Programming();
+            Table tb = new Table();
+            tb.tableMethod();
+            //Programming p1 = new Programming();
            // p1.checkEqual();
            // p1.eligibleVote();
-            p1.evenOdd();
+            //p1.evenOdd();
 
           /*  NestedIfElse nf = new NestedIfElse();
             nf.foodChoice(); 
