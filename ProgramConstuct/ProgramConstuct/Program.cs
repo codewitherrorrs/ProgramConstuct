@@ -7,10 +7,11 @@ namespace ProgramConstruct
         public static void Main(string[] args)
         {
             Programming p1 = new Programming();
-            p1.checkEqual();
-            p1.eligibleVote();
+           // p1.checkEqual();
+           // p1.eligibleVote();
+            p1.evenOdd();
 
-            NestedIfElse nf = new NestedIfElse();
+          /*  NestedIfElse nf = new NestedIfElse();
             nf.foodChoice(); 
 
             SwitchCaseDemo sc = new SwitchCaseDemo();
@@ -52,8 +53,8 @@ namespace ProgramConstruct
                     default:
                         Console.WriteLine("Invalid Choice");
                         break;
-                }
-            }  
+                } 
+            }  */
         }
     }
 }
