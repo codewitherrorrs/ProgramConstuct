@@ -7,7 +7,8 @@ namespace ProgramConstruct
         public static void Main(string[] args)
         {
             WhileLoopDemo wd = new WhileLoopDemo();
-            wd.flipCoin();
+            //wd.flipCoin();
+            wd.reverseWord();
             //WeekDay Program
         /*    while (true)
             {

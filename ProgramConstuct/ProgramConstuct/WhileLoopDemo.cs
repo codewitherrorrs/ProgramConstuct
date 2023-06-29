@@ -39,5 +39,16 @@ namespace ProgramConstuct
                 Console.WriteLine($"Head is the Loser : {head}");
             }
         }
+
+        public void reverseWord()
+        {
+            Console.WriteLine("Enter the Word to Reverse");
+            string word = Console.ReadLine();
+            int i;
+            for (i = word.Length - 1; i >= 0; i--)
+            {
+                Console.WriteLine($"The Reverse Word is {word[i]}");
+            }
+        }
     }
 }
