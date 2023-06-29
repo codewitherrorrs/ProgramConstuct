@@ -6,8 +6,10 @@ namespace ProgramConstruct
     { 
         public static void Main(string[] args)
         {
+            WhileLoopDemo wd = new WhileLoopDemo();
+            wd.flipCoin();
             //WeekDay Program
-            while (true)
+        /*    while (true)
             {
                 Console.WriteLine("Enter the week number to get Day ");
                 int num = int.Parse(Console.ReadLine());
@@ -38,7 +40,7 @@ namespace ProgramConstruct
                         Console.WriteLine("Invalid Input Please Place Number Between 1 to 7 to get Day Name");
                         break;
                 }
-            }
+            } */
 
             //Table tb = new Table();
             //tb.tableMethod();
